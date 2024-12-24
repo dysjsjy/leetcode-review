@@ -3,20 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.dysjsjy</groupId>
+        <artifactId>bnaryTree</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>com.dysjsjy</groupId>
-    <artifactId>leetcode-review</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>array</module>
-        <module>linkedList</module>
-        <module>hash</module>
-        <module>character</module>
-        <module>doublePointer</module>
-        <module>stackQueue</module>
-        <module>bnaryTree</module>
-    </modules>
+    <artifactId>binaryTree1</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
